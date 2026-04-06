@@ -1,12 +1,9 @@
 {
-  "id": "illama-magma",
-  "origin": "illama",
+  "id": "illama-magma-001",
+  "authors": ["illama"],
+  "origin": "https://github.com/illama/illama_ampmagma.git",
   "url": "https://github.com/illama/illama_ampmagma",
+  "imagefile": "",
   "prefix": "Illama",
-  "configs": [
-    {
-      "filename": "magma",
-      "displayname": "Magma 1.21.1"
-    }
-  ]
+  "repotype": "AppTemplates"
 }
