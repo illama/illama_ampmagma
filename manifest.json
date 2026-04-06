@@ -1,0 +1,12 @@
+{
+  "id": "illama-magma",
+  "origin": "illama",
+  "url": "https://github.com/illama/illama_ampmagma",
+  "prefix": "Illama",
+  "configs": [
+    {
+      "filename": "magma",
+      "displayname": "Magma 1.21.1"
+    }
+  ]
+}
