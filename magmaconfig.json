@@ -1,0 +1,66 @@
+[
+    {
+      "DisplayName": "Server Name",
+      "Description": "The name of the server shown in the server list.",
+      "FieldName": "motd",
+      "InputType": "text",
+      "Category": "Server Settings",
+      "DefaultValue": "A Magma Server"
+    },
+    {
+      "DisplayName": "Max Players",
+      "Description": "Maximum number of players.",
+      "FieldName": "max-players",
+      "InputType": "number",
+      "Category": "Server Settings",
+      "DefaultValue": "20",
+      "minValue": "1",
+      "maxValue": "200"
+    },
+    {
+      "DisplayName": "Game Mode",
+      "Description": "Default game mode for players.",
+      "FieldName": "gamemode",
+      "InputType": "enum",
+      "Category": "Gameplay",
+      "EnumValues": {
+        "survival": "Survival",
+        "creative": "Creative",
+        "adventure": "Adventure",
+        "spectator": "Spectator"
+      },
+      "DefaultValue": "survival"
+    },
+    {
+      "DisplayName": "Difficulty",
+      "Description": "Server difficulty.",
+      "FieldName": "difficulty",
+      "InputType": "enum",
+      "Category": "Gameplay",
+      "EnumValues": {
+        "peaceful": "Peaceful",
+        "easy": "Easy",
+        "normal": "Normal",
+        "hard": "Hard"
+      },
+      "DefaultValue": "normal"
+    },
+    {
+      "DisplayName": "Online Mode",
+      "Description": "Enforce Mojang authentication (disable for cracked).",
+      "FieldName": "online-mode",
+      "InputType": "checkbox",
+      "Category": "Security",
+      "EnumValues": { "False": "false", "True": "true" },
+      "DefaultValue": "True"
+    },
+    {
+      "DisplayName": "PVP",
+      "Description": "Allow player vs player combat.",
+      "FieldName": "pvp",
+      "InputType": "checkbox",
+      "Category": "Gameplay",
+      "EnumValues": { "False": "false", "True": "true" },
+      "DefaultValue": "True"
+    }
+  ]

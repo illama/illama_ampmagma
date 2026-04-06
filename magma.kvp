@@ -1,0 +1,17 @@
+App.DisplayName=Magma 1.21.1
+App.RootDir=./
+App.WorkingDir=./
+App.ExecutableWin=java.exe
+App.ExecutableLinux=java
+App.CommandLineArgs=-Xms128M -Xmx{Memory}M @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.67-beta/unix_args.txt nogui
+App.HasWriteableConsole=true
+App.HasReadableConsole=true
+App.ApplicationPort1=25565
+App.AdminMethod=STDIO
+App.ExitMethod=String
+App.ExitString=stop
+App.UpdateSources=[{"UpdateStageName":"Download Magma Installer","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://magmafoundation.org/api/versions/21.1.67-beta/download?type=installer","UpdateSourceTarget":"magma-installer.jar"},{"UpdateStageName":"Run Installer","UpdateSourcePlatform":"All","UpdateSource":"Executable","UpdateSourceData":"java","UpdateSourceArgs":"-jar magma-installer.jar --installServer"},{"UpdateStageName":"Accept EULA","UpdateSourcePlatform":"Linux","UpdateSource":"Executable","UpdateSourceData":"bash","UpdateSourceArgs":"-c 'echo eula=true > eula.txt'"}]
+Console.AppReadyRegex=^.*Done \(.*\)! For help, type "help".*$
+Console.UserJoinRegex=^.*: (?<username>[a-zA-Z0-9_]{2,16})\[.*\] logged in.*$
+Console.UserLeaveRegex=^.*: (?<username>[a-zA-Z0-9_]{2,16}) lost connection.*$
+Console.UserChatRegex=^.*\[Not Secure\] <(?<username>[a-zA-Z0-9_]{2,16})> (?<message>.+)$

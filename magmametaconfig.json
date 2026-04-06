@@ -1,0 +1,20 @@
+[
+    {
+      "ConfigFile": "server.properties",
+      "ConfigType": "kvp",
+      "ConfigFormat": "{0}={1}",
+      "Subsections": [
+        {
+          "Heading": "$root",
+          "SettingMappings": {
+            "motd": "motd",
+            "max-players": "max-players",
+            "gamemode": "gamemode",
+            "difficulty": "difficulty",
+            "online-mode": "online-mode",
+            "pvp": "pvp"
+          }
+        }
+      ]
+    }
+  ]
